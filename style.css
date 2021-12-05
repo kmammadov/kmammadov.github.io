@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Estonia&family=Lobster&family=Roboto:ital,wght@1,100&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{
+    background: url(Flamingo.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.navbar{
+    width:100%;
+    height:80px;
+    background: #e2ece9;
+}
+.teamname{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navbar .teamname a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #006d77;
+    font-weight: bold;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: 0;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #006d77;
+}
+.navbar ul li a.highlight,
+.navbar ul li a:hover{
+    background-color: pink;
+    border-radius: 0%;
+
+}
+.centerofpage1{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    font-size: 50px;
+    color: #3a2e39;
+    background-color:rgba(238, 198, 202, 30%);
+}
+.centerofpage1 h1{
+    margin-left: 100px;
+}
+.next {
+    margin: 35px 280px;   
+}
+
+.next button {
+
+    min-height: 60px;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+    border: solid 1px black;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    display: flex;
+   flex-direction: column;
+    border-top-left-radius: 35px;
+   border-bottom-right-radius: 35px;
+    
+}
+.next button a{
+    font-weight: bold;
+    text-decoration: none;
+    position:relative;
+    display:inline-block;
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-size: 18px;
+   color: white;
+
+}
+
+.bottomofpage1{
+    margin-top: 620px;
+    float: right;
+    margin-right: 30px;
+   font-size: 20px;
+   font-family: 'Abril Fatface', cursive;
+   outline: none;
+   font-weight: normal;
+   
+}
+.page2{
+    background: url(tec.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+.navbar2{
+    width:100%;
+    height:60px;
+    background: rgb(1, 1, 19);
+}
+
+.navbar2 .teamname a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+}
+.navbar2 ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar2 ul li{
+    list-style: 0;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.navbar2 ul li a.highlight,
+.navbar2 ul li a:hover{
+    background: peru;
+    border-radius: 0%;
+
+}
+.slogan h3{
+    margin-right: 20px;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: right;
+}
+.dp{
+    margin-left: 10px;
+
+}
+.teampage {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+ .par1{
+    
+    
+    font-size: large;
+    
+}
+
+.button2{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.button2 a{
+    
+    color: white;
+    font-weight: bold;
+}
+.par2{
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    width: 50%;
+    height: 170px;
+    text-align: left;
+    font-size: large;
+    
+}
+.par2andpic{
+    display: flex;
+}
+.logopic{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 100px;
+}
+.Descriptionofname h1{
+    font-weight: bold;
+
+}
+
+.navbar3{
+    width:100%;
+    height:60px;
+    background: rgb(0, 0, 0);
+}
+
+.navbar3 .teamname a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+}
+.navbar3 ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar3 ul li{
+    list-style: 0;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.navbar3 ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.navbar3 ul li a.highlight,
+.navbar3 ul li a:hover{
+    background: peru;
+    border-radius: 0%;
+
+}
+.page3{
+    background-image: url(Black.jpg);
+    height: 210vh;
+    background-size: 100% 100%;
+}
+.decor{
+    width: 250px;
+    height: 1000px;
+    float: right;
+    margin-right: 50px;
+}
+.teammembers{
+    margin-left: 20px;
+    
+}
+.listofmembers{
+    color: white;
+    font-size: 30px;
+    font-family:sans-serif;
+}
+
+.listofmembers2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.Namig{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+}
+.Namigp{
+    width: 40%;
+    text-align: justify;
+    
+}
+.namigandpic{
+    display: flex;
+}
+.namigpic{
+    margin-left: 100px;
+    width: 210px;
+    height: 200px;
+}
+.Fuad{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+}
+.Fuadgp{
+    width: 40%;
+    text-align: justify;
+    
+}
+.fuadandpic{
+    display: flex;
+}
+.fuadpic{
+    margin-left: 100px;
+    width: 210px;
+    height: 200px;
+}
+.Khalid{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+}
+.Khalidp{
+    width: 40%;
+    text-align: justify;
+    
+}
+.khalidandpic{
+    display: flex;
+}
+.khalidpic{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.Noel{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+}
+.noelp{
+    width: 40%;
+    text-align: justify;
+    
+}
+.noelpandpic{
+    display: flex;
+}
+.noelpic{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.page4{
+    background-color:black ;
+    height: 250vh;
+    background-size: 100% 100%;
+}
+.expe{
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-weight: bold;
+    text-align: justify;
+padding-right: 15px;
+color: white;
+}
+
+.table1 th{
+    
+     width: 60%;
+     border: 2px solid #099FFF;
+}
+.table1 td{
+    
+    width: 60%;
+    border: 2px solid #099FFF;
+}
+
+.websitee{
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-weight: bold;
+    text-align: justify;
+padding-right: 15px;
+color: white;
+}
+.kb{
+    width: 100%;
+    height: 400px;
+}
